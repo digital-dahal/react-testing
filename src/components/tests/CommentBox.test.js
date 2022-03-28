@@ -1,6 +1,6 @@
-import CommentBox from "../components/CommentBox";
+import CommentBox from "../CommentBox";
 import { mount } from "enzyme";
-import Root from "../Root";
+import Root from "../../Root";
 let wrapped;
 beforeEach(() => {
   wrapped = mount(
@@ -14,7 +14,7 @@ afterEach(() => {
 });
 it("has a text area", () => {
   expect(wrapped.find("textarea").length).toEqual(1);
-  expect(wrapped.find("button").length).toEqual(1);
+  expect(wrapped.find("button").length).toEqual(2);
 });
 {
   /* have some repitive code */

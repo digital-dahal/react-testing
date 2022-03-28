@@ -1,5 +1,5 @@
-import CommentList from "../components/CommentList";
-import Root from "../Root";
+import CommentList from "../CommentList";
+import Root from "../../Root";
 import { mount } from "enzyme";
 let wrapped;
 beforeEach(() => {

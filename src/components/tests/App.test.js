@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "../App";
+import App from "../../App";
 import { shallow } from "enzyme";
-import CommentBox from "../components/CommentBox";
-import CommnetList from "../components/CommentList";
+import CommentBox from "../CommentBox";
+import CommnetList from "../CommentList";
 
 let wrapped;
 beforeEach(() => {
